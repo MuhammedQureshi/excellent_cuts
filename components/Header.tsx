@@ -41,7 +41,7 @@ export function Header() {
             >
               <Scissors className="w-8 h-8 text-amber-500" />
             </motion.div>
-            <span className="text-white text-xl tracking-wider">
+            <span className="text-white text-xl tracking-wider" style={{ fontFamily: 'var(--font-heading)' }}>
               EXCELLENT <span className="text-amber-500">CUTS</span>
             </span>
           </Link>

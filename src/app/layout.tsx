@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Marcellus_SC } from "next/font/google";
 import "./globals.css";
 import { Header } from "../../components/Header";
 import { Footer } from "../../components/Footer";
@@ -10,6 +10,12 @@ const geistSans = Geist({
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+const marcellusSC = Marcellus_SC({
+  variable: "--font-marcellus-sc",
+  weight: "400",
   subsets: ["latin"],
 });
 
@@ -26,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${marcellusSC.variable} antialiased`}
       >
         <Header />
         {children}
