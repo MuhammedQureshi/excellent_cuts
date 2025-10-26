@@ -6,9 +6,9 @@ import React from 'react'
 
 export default function ServicesPreview() {
     const services = [
-        { name: 'Classic Haircut', price: '$35', icon: Scissors },
-        { name: 'Beard Trim', price: '$25', icon: Scissors },
-        { name: 'Hot Towel Shave', price: '$40', icon: Scissors },
+        { name: 'Classic Haircut', price: '£35', icon: Scissors },
+        { name: 'Beard Trim', price: '£25', icon: Scissors },
+        { name: 'Hot Towel Shave', price: '£40', icon: Scissors },
       ];
   return (
         <section className="py-20 bg-zinc-900">
