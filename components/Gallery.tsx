@@ -30,7 +30,7 @@ export default function Gallery() {
         >
           <div className="relative h-full min-h-[400px]">
             <img
-              src="https://images.unsplash.com/photo-1687422808328-11cf750a5051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJiZXIlMjBjdXR0aW5nJTIwaGFpcnxlbnwxfHx8fDE3NjE0NTQ2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="/gal1.jpg"
               alt="Barber cutting hair"
               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
@@ -49,7 +49,7 @@ export default function Gallery() {
         >
           <div className="relative h-full min-h-[195px]">
             <img
-              src="https://images.unsplash.com/photo-1759134198561-e2041049419c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJiZXJzaG9wJTIwaW50ZXJpb3IlMjBtb2Rlcm58ZW58MXx8fHwxNzYxNDI0NDI5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="/gal2.jpg"
               alt="Barbershop interior"
               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
@@ -68,7 +68,7 @@ export default function Gallery() {
         >
           <div className="relative h-full min-h-[195px]">
             <img
-              src="https://images.unsplash.com/photo-1656921350153-b6389adaad57?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJiZXIlMjB0b29scyUyMHNjaXNzb3JzfGVufDF8fHx8MTc2MTM4OTYwNHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="/gal3.jpg"
               alt="Barber tools"
               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
@@ -87,7 +87,7 @@ export default function Gallery() {
         >
           <div className="relative h-full min-h-[400px]">
             <img
-              src="https://images.unsplash.com/photo-1598524374668-5d565a3c42e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYXJiZXJzaG9wJTIwaGFpcmN1dHxlbnwxfHx8fDE3NjE0MTEzNTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="gal4.jpg"
               alt="Professional haircut"
               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
             />
@@ -125,7 +125,7 @@ export default function Gallery() {
         >
           <div className="relative h-full min-h-[195px]">
             <img
-              src="https://images.unsplash.com/photo-1761064039763-0d9aa5124510?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx2aW50YWdlJTIwYmFyYmVyJTIwY2hhaXJ8ZW58MXx8fHwxNzYxNDg5MDM2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="/gal5.jpg"
               alt="Classic barber chair"
               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
             />

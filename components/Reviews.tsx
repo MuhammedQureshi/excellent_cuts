@@ -22,18 +22,18 @@ export default function Reviews() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: 'Michael Rodriguez',
-                review: 'Best barber shop in town! The attention to detail is incredible. Been coming here for 5 years and never disappointed.',
+                name: 'Jack Danton',
+                review: 'Very experienced and knowledgeable barbers. Also very welcoming and make you feel comfortable',
                 rating: 5,
               },
               {
                 name: 'James Peterson',
-                review: 'Professional service, skilled barbers, and a great atmosphere. The hot towel shave is absolutely worth it.',
+                review: 'Been coming here for two years and they are the most consistent barbers Ive ever had. Never had a bad haircut. Also helps that the owner is a great bloke!',
                 rating: 5,
               },
               {
                 name: 'David Thompson',
-                review: 'Excellent Cuts lives up to its name. Old-school barbering done right. Highly recommend to anyone looking for quality.',
+                review: 'Great experience here! The barber took his time, gave me a clean fade, and really paid attention to detail. Friendly atmosphere too — definitely my new go-to spot.',
                 rating: 5,
               },
             ].map((review, index) => (
