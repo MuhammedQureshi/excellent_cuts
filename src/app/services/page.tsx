@@ -4,85 +4,86 @@ import { motion } from 'framer-motion';
 import { Scissors, Sparkles, Slice, Droplet, Menu, Wind, Star, Zap, Award, Crown, Heart, Circle } from 'lucide-react';
 
 export default function ServicesPage() {
-  const services = [
-    {
-      icon: Scissors,
-      name: 'Classic Haircut',
-      price: '$35',
-      description: 'Traditional haircut with clipper and scissor work, styled to perfection',
-      duration: '45 min',
-    },
-    {
-      icon: Slice,
-      name: 'Hot Towel Shave',
-      price: '$40',
-      description: 'Luxurious straight razor shave with hot towel treatment and premium products',
-      duration: '30 min',
-    },
-    {
-      icon: Menu,
-      name: 'Beard Trim & Shape',
-      price: '$25',
-      description: 'Expert beard trimming and shaping to maintain your perfect style',
-      duration: '20 min',
-    },
-    {
-      icon: Sparkles,
-      name: 'Premium Cut & Shave',
-      price: '$65',
-      description: 'Complete grooming package: haircut, hot towel shave, and facial massage',
-      duration: '75 min',
-    },
-    {
-      icon: Crown,
-      name: 'Executive Cut',
-      price: '$50',
-      description: 'Premium haircut with consultation, wash, cut, and styling',
-      duration: '60 min',
-    },
-    {
-      icon: Droplet,
-      name: 'Hair & Scalp Treatment',
-      price: '$45',
-      description: 'Deep conditioning treatment with relaxing scalp massage',
-      duration: '40 min',
-    },
-    {
-      icon: Wind,
-      name: 'Fade Haircut',
-      price: '$40',
-      description: 'Modern fade cut with precise blending and clean lines',
-      duration: '50 min',
-    },
-    {
-      icon: Star,
-      name: 'Kids Haircut',
-      price: '$25',
-      description: 'Special care for young gentlemen ages 12 and under',
-      duration: '30 min',
-    },
-    {
-      icon: Zap,
-      name: 'Style & Finish',
-      price: '$15',
-      description: 'Professional styling with premium products',
-      duration: '15 min',
-    },
-    {
-      icon: Award,
-      name: 'Gentleman\'s Facial',
-      price: '$55',
-      description: 'Rejuvenating facial treatment with steam and hot towels',
-      duration: '45 min',
-    },
-    {
-      icon: Heart,
-      name: 'Full Grooming Package',
-      price: '$90',
-      description: 'The complete experience: cut, shave, facial, and grooming consultation',
-      duration: '90 min',
-    },
-  ];
+    const services = [
+        {
+          icon: Droplet,
+          name: 'Beard Conditioning',
+          price: '£20',
+          description: 'Hydrating and nourishing treatment to keep your beard soft and healthy',
+          duration: '20 min',
+        },
+        {
+          icon: Menu,
+          name: 'Beard Trim',
+          price: '£25',
+          description: 'Precision beard trimming and shaping for a clean, stylish look',
+          duration: '25 min',
+        },
+        {
+          icon: Scissors,
+          name: 'Buzz Cut',
+          price: '£30',
+          description: 'Even all-over clipper cut for a sharp, low-maintenance style',
+          duration: '30 min',
+        },
+        {
+          icon: Wind,
+          name: 'Curly Hair',
+          price: '£45',
+          description: 'Expert cut and care for naturally curly or textured hair',
+          duration: '50 min',
+        },
+        {
+          icon: Crown,
+          name: 'Hair Extensions',
+          price: '£120',
+          description: 'Professional hair extension application for added length and volume',
+          duration: '90 min',
+        },
+        {
+          icon: Sparkles,
+          name: 'Hair Shape Up',
+          price: '£20',
+          description: 'Line-up and edge detailing to keep your style fresh between cuts',
+          duration: '15 min',
+        },
+        {
+          icon: Zap,
+          name: 'Head Shave',
+          price: '£35',
+          description: 'Smooth, clean head shave with hot towel treatment',
+          duration: '30 min',
+        },
+        {
+          icon: Star,
+          name: 'Long Haircut',
+          price: '£50',
+          description: 'Detailed scissor cut for longer hairstyles, including wash and finish',
+          duration: '60 min',
+        },
+        {
+          icon: Scissors,
+          name: 'Scissor Cut',
+          price: '£40',
+          description: 'Classic scissor cut tailored to your preferred length and style',
+          duration: '45 min',
+        },
+        {
+          icon: Slice,
+          name: 'Shave',
+          price: '£30',
+          description: 'Traditional shave with hot lather and soothing aftershave treatment',
+          duration: '30 min',
+        },
+        {
+          icon: Award,
+          name: 'Straight Razor Shave',
+          price: '£40',
+          description: 'Classic straight razor shave for the ultimate smooth finish',
+          duration: '35 min',
+        },
+      ];
+      
 
   return (
     <div className="min-h-screen bg-black pt-16">
