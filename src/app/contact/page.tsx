@@ -155,9 +155,6 @@ export default function ContactPage() {
             <p className="text-white/70 text-lg mb-6">
               No appointment necessary. We serve customers on a first-come, first-served basis.
             </p>
-            <p className="text-white/60">
-              Free parking available in the rear of the building.
-            </p>
           </motion.div>
         </div>
       </section>
