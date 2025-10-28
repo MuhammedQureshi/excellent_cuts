@@ -1,15 +1,15 @@
 'use client'
 import { motion } from 'framer-motion'
-import {ChevronRight, Scissors } from 'lucide-react'
+import {Beaker, ChevronRight, Scissors, Zap } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 
 export default function ServicesPreview() {
-    const services = [
-        { name: 'Classic Haircut', price: '£35', icon: Scissors },
-        { name: 'Beard Trim', price: '£25', icon: Scissors },
-        { name: 'Hot Towel Shave', price: '£40', icon: Scissors },
-      ];
+        const services = [
+          { name: 'Hair cut', price: '£17', icon: Scissors },
+          { name: 'Skin Fade', price: '£19', icon: Zap },
+          { name: 'Beard Trim', price: '£11', icon: Beaker },
+        ];
   return (
         <section className="py-20 bg-zinc-900">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
