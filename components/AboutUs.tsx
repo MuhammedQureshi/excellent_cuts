@@ -49,7 +49,7 @@ export default function AboutUs() {
               </h2>
               <div className="w-24 h-1 bg-amber-500 mb-6" />
               <p className="text-white/70 text-lg mb-6">
-                Founded in 2003, Excellent Cuts has been the premier destination for men's grooming
+                Founded in 2011, Excellent Cuts has been the premier destination for men's grooming
                 in the city. Our master barbers bring decades of combined experience and a
                 passion for the craft.
               </p>

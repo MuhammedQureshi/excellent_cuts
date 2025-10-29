@@ -15,7 +15,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-white/70">
-              Where tradition meets style. Your neighborhood barber shop since 2003.
+              Where tradition meets style. Your neighborhood barber shop since 2011.
             </p>
           </div>
 
