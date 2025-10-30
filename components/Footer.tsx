@@ -9,10 +9,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Scissors className="w-6 h-6 text-amber-500" />
-              <span className="tracking-wider">
-                EXCELLENT <span className="text-amber-500">CUTS</span>
-              </span>
+              <img src="/logo.jpeg" alt="Excellent Cuts Logo" className="h-20 rounded-full w-auto" />
             </div>
             <p className="text-white/70">
               Where tradition meets style. Your neighborhood barber shop since 2011.

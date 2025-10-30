@@ -39,11 +39,11 @@ export function Header() {
               whileHover={{ rotate: 180 }}
               transition={{ duration: 0.3 }}
             >
-              <Scissors className="w-8 h-8 text-amber-500" />
             </motion.div>
-            <span className="text-white text-xl tracking-wider" style={{ fontFamily: 'var(--font-heading)' }}>
+            {/* <span className="text-white text-xl tracking-wider" style={{ fontFamily: 'var(--font-heading)' }}>
               EXCELLENT <span className="text-amber-500">CUTS</span>
-            </span>
+              </span> */}
+              <img src="/logo.jpeg" alt="Excellent Cuts Logo" className="h-20 rounded-full w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
